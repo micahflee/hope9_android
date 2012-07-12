@@ -2,3 +2,4 @@ bin
 build.xml
 local.properties
 gen
+*.swp
