@@ -1,14 +1,12 @@
+#!/usr/local/bin/node
+
 var fs = require('fs');
 
 // write the notice
-var notice = {notice:"Have fun at HOPE Number 9! And make sure to check out Privacy Tricks for Activist Web Developers :)."};
-fs.open('notice.json', 'w', '0666', function(err, fd){
+var notice = {notice:"Have fun at HOPE Number 9!<br><br>And make sure to check out <strong>Privacy Tricks for Activist Web Developers</strong> :).<br><br><a href=\"https://twitter.com/micahflee\">@micahflee</a>"};
+fs.writeFile('notice.json', JSON.stringify(notice), function(err){
   if(err) throw(err);
-  var buffer = JSON.stringify(notice);
-  fs.write(fd, buffer, 0, notice.length, null, function(err, written, buffer){
-    if(err) throw(err);
-    console.log("Successfully wrote "+written+" bytes of the notice");
-  });
+  console.log('notice.json written');
 });
 
 // write the schedule
@@ -28,12 +26,8 @@ var schedule = [
   }
 ];
 
-fs.open('schedule.json', 'w', '0666', function(err, fd){
+fs.writeFile('schedule.json', JSON.stringify(schedule), function(err){
   if(err) throw(err);
-  var buffer = JSON.stringify(schedule);
-  fs.write(fd, buffer, 0, buffer.length, null, function(err, written, buffer){
-    if(err) throw(err);
-    console.log("Successfully wrote "+written+" bytes of the schedule");
-  });
+  console.log('schedule.json written');
 });
 
