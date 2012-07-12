@@ -23,8 +23,8 @@ import android.widget.Toast;
 /** Functions which can be called from JavaScript. */
 public class JSInterface {
 	public static final String PREFS_NAME = "HOPE9Prefs";
-	public static final String SCHEDULE_JSON_URL = "http://www.thenexthope.org/hope_schedule/json.php";
-	public static final String NOTICE_JSON_URL = "http://www.thenexthope.org/hope_schedule/notice_json.php";
+	public static final String SCHEDULE_JSON_URL = "https://raw.github.com/micahflee/hope9_android/master/schedule/schedule.json";
+	public static final String NOTICE_JSON_URL = "https://raw.github.com/micahflee/hope9_android/master/schedule/notice.json";
         private static final String LOG_TAG = "JSInterface";
         // not all events are the same length, but most are and our
         // schedule JSON does't appear to tell us which ones aren't.
@@ -57,6 +57,7 @@ public class JSInterface {
 		if(!forceDownload) {
 			long timeDiff = System.currentTimeMillis() - lastDownloadedJSON;
 			if(timeDiff < 3600000) {
+				Toast.makeText(context, "Using stored schedule", Toast.LENGTH_SHORT).show();
 				return prefJson;
 			}
 		}
@@ -64,6 +65,7 @@ public class JSInterface {
 		// try downloading file
     	String scheduleJson = "";
     	try {
+    		Toast.makeText(context, "Downloading schedule...", Toast.LENGTH_SHORT).show();
     		DefaultHttpClient client = new DefaultHttpClient();
     		URI uri = new URI(SCHEDULE_JSON_URL);
     		HttpGet method = new HttpGet(uri);
@@ -103,6 +105,7 @@ public class JSInterface {
 		// try downloading file
     	String noticeJson = "";
     	try {
+    		Toast.makeText(context, "Downloading notice...", Toast.LENGTH_SHORT).show();
     		DefaultHttpClient client = new DefaultHttpClient();
     		URI uri = new URI(NOTICE_JSON_URL);
     		HttpGet method = new HttpGet(uri);
@@ -116,6 +119,7 @@ public class JSInterface {
     			sb.append(cur + "\n");
     		}
     		data.close();
+    		Toast.makeText(context, "Downloaded notice", Toast.LENGTH_SHORT).show();
     		noticeJson = sb.toString();
     	} catch (Exception e) {
     		return "{ \"didNotLoad\" : true }";
