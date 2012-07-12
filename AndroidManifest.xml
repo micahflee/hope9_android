@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="net.hope.mobile"
+      package="net.hope.hope9"
       android:versionCode="1"
       android:versionName="1.0">
     <application android:icon="@drawable/icon" android:theme="@android:style/Theme.NoTitleBar">
-        <activity android:name=".TheNextHOPE"
+        <activity android:name=".HOPENumber9"
                   android:label="@string/app_name"
                   android:screenOrientation="portrait"
                   android:launchMode="singleTop">

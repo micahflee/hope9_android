@@ -1,4 +1,4 @@
-package net.hope.mobile;
+package net.hope.hope9;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -22,7 +22,7 @@ import android.widget.Toast;
 
 /** Functions which can be called from JavaScript. */
 public class JSInterface {
-	public static final String PREFS_NAME = "TheNextHOPEPrefs";
+	public static final String PREFS_NAME = "HOPE9Prefs";
 	public static final String SCHEDULE_JSON_URL = "http://www.thenexthope.org/hope_schedule/json.php";
 	public static final String NOTICE_JSON_URL = "http://www.thenexthope.org/hope_schedule/notice_json.php";
         private static final String LOG_TAG = "JSInterface";

@@ -1,4 +1,4 @@
-package net.hope.mobile;
+package net.hope.hope9;
 
 import android.app.Activity;
 import android.app.SearchManager;
@@ -17,13 +17,13 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class TheNextHOPE extends Activity {
+public class HOPENumber9 extends Activity {
 	private WebView webview;
 	private Button scheduleButton;
 	private Button favoritesButton;
 	private Button noticeButton;
 
-    private static final String LOG_TAG = "TheNextHOPE";
+    private static final String LOG_TAG = "HOPE9";
 	
     /** Called when the activity is first created. */
     @Override
