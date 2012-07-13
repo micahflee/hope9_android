@@ -1,17 +1,5 @@
 [
     {
-        "timestamp": 0,
-        "speakers": [
-            {
-                "name": "William Binney",
-                "bio": "served in the secretive National Security Agency for over 30 years, including a time as director of the NSA&#39;s World Geopolitical and Military Analysis Reporting Group. Based on his experience and background, he estimates that the NSA has put together over 20,000,000,000,000 (20 trillion) &quot;transactions&quot; - phone calls, emails, and other forms of data - from Americans, including potentially almost all of the emails sent and received from most people who live in the United States. By coming forward to expose these abuses and provide evidence to the public and the media, he displays those qualities that so many in the hacker community strive for: courage, standing up to authority, revealing the truth, and honoring the rights of the individual. We&#39;re honored to have William Binney as one of our keynote speakers this year."
-            }
-        ],
-        "title": "Keynote Address - William Binney",
-        "id": "binney",
-        "description": "followed by lightning talks"
-    },
-    {
         "rooms": [
             "Sassaman"
         ],
@@ -110,7 +98,7 @@
         ],
         "title": "Technology to Change Society: What Not to Do",
         "id": "technology",
-        "description": "Many of us in the hacker/maker communities have a powerful desire to change society by sharing the technologies we&#39;re passionate about with those around us. We&#39;re convinced that our way of thinking can lead people to liberation, empowerment, and better lives. But it doesn&#39;t always work the way we hope. While some technologies support change in certain situations - Twitter and mobile devices in the Middle East and Africa, the printing press and democracy - history is littered with failed technology-driven plans to change the world. This is where programmers can take a page from social research and history. There is not, in fact, consensus in the research that &quot;technology teaches itself&quot; or &quot;code is law.&quot; Society is a complex system (people are complex systems!) and overly simplistic beliefs that technology has one universal kind of impact on its users can doom well-intentioned efforts to help others use technology. What do we need to know about society and how technology changes it in order to be successful?\n\tIn this panel, Gus will share some basic rules from research on education, political movements, and social change which everyone who wants to write code to change the world should know. Christina will share cases of activist technical interventions that illustrate the complexity of success or failure, and how inseparable social and technical elements can be. Chris will do a postmortem of some past projects to change journalism with technology, including the Independent Media Center, discussing their successes and failures. And Matt will talk about his work to develop a degree in open technology and education at Adelphi University: what he&#39;s doing to convince administrators that FOSS technology is important enough to merit its own program, what challenges he faces in talking to educators, and the things in his plan of study which he thinks are most important for politically conscious tech developers to know."
+        "description": "Many of us in the hacker/maker communities have a powerful desire to change society by sharing the technologies we&#39;re passionate about with those around us. We&#39;re convinced that our way of thinking can lead people to liberation, empowerment, and better lives. But it doesn&#39;t always work the way we hope. While some technologies support change in certain situations - Twitter and mobile devices in the Middle East and Africa, the printing press and democracy - history is littered with failed technology-driven plans to change the world. This is where programmers can take a page from social research and history. There is not, in fact, consensus in the research that &quot;technology teaches itself&quot; or &quot;code is law.&quot; Society is a complex system (people are complex systems!) and overly simplistic beliefs that technology has one universal kind of impact on its users can doom well-intentioned efforts to help others use technology. What do we need to know about society and how technology changes it in order to be successful?\nIn this panel, Gus will share some basic rules from research on education, political movements, and social change which everyone who wants to write code to change the world should know. Christina will share cases of activist technical interventions that illustrate the complexity of success or failure, and how inseparable social and technical elements can be. Chris will do a postmortem of some past projects to change journalism with technology, including the Independent Media Center, discussing their successes and failures. And Matt will talk about his work to develop a degree in open technology and education at Adelphi University: what he&#39;s doing to convince administrators that FOSS technology is important enough to merit its own program, what challenges he faces in talking to educators, and the things in his plan of study which he thinks are most important for politically conscious tech developers to know."
     },
     {
         "rooms": [
@@ -237,6 +225,25 @@
         "title": "Crimeware Tools and Techniques of 2012: Past, Present, and Future",
         "id": "crimeware",
         "description": "Much has evolved in the brief 24 months that have passed since the last presentation on this topic, which included a comprehensive overview of the Zeus and SpyEye trojans, popular exploits being used in the wild, and cash out methodologies of the digital crime actors at the time. Today, new digital currencies have emerged, vulnerabilities in popular crimeware kits have been made public, black market credit card trades have become automated, popular crime forums have been hacked and dumped, and the industry based around digital crime analysis and counterintelligence has grown exponentially. In spite of recent arrests of a few individuals, malicious actors are still numerous and able to keep ahead of the law by adapting to the changing environment and hardening their operations. This presentation will go over these developments, as well as the latest digital crime tools, techniques, and methodologies that are currently in use during the present day. The talk will also assess where the current trends will be heading in the future."
+    },
+    {
+        "rooms": [
+            "Dennis",
+            "Sassaman",
+            "Nutt"
+        ],
+        "when": "2012-07-13T14:00:00",
+        "location": "Dennis, Sassaman, Nutt",
+        "timestamp": 1342202400,
+        "speakers": [
+            {
+                "name": "William Binney",
+                "bio": "served in the secretive National Security Agency for over 30 years, including a time as director of the NSA&#39;s World Geopolitical and Military Analysis Reporting Group. Based on his experience and background, he estimates that the NSA has put together over 20,000,000,000,000 (20 trillion) &quot;transactions&quot; - phone calls, emails, and other forms of data - from Americans, including potentially almost all of the emails sent and received from most people who live in the United States. By coming forward to expose these abuses and provide evidence to the public and the media, he displays those qualities that so many in the hacker community strive for: courage, standing up to authority, revealing the truth, and honoring the rights of the individual. We&#39;re honored to have William Binney as one of our keynote speakers this year."
+            }
+        ],
+        "title": "Keynote Address - William Binney",
+        "id": "binney",
+        "description": "followed by lightning talks"
     },
     {
         "rooms": [
@@ -371,7 +378,7 @@
         ],
         "title": "\"Kill The Internet\"",
         "id": "kill",
-        "description": "As grassroots Internet culture grows and flourishes, pushing out into international mainstream recognition, top-down cultural models are threatened and fight back, while governments attempt to quash and chill dissent empowered and organized by the Internet. How are people from the Internet fighting back? What does that even mean? And will it be enough?\n\tMemeFactory is three guys that give tightly rehearsed performative lectures about Internet culture. Their talks document, explore, and critique the emerging culture of the Internet in a visually-focused, fast-paced style that mimics the experience of having ten browser windows open while talking on the phone and watching a YouTube video."
+        "description": "As grassroots Internet culture grows and flourishes, pushing out into international mainstream recognition, top-down cultural models are threatened and fight back, while governments attempt to quash and chill dissent empowered and organized by the Internet. How are people from the Internet fighting back? What does that even mean? And will it be enough?\nMemeFactory is three guys that give tightly rehearsed performative lectures about Internet culture. Their talks document, explore, and critique the emerging culture of the Internet in a visually-focused, fast-paced style that mimics the experience of having ten browser windows open while talking on the phone and watching a YouTube video."
     },
     {
         "rooms": [
@@ -827,7 +834,7 @@
         ],
         "title": "Hacking Mindsets: Conceptual Approaches to Transmission Art, Improvisation, Circuitbending, and Gaming Technology",
         "id": "hackingmindsets",
-        "description": "In Richard Stallman&#39;s &quot;On Hacking&quot; from 2000, he addresses the stigma attached to the notion of &quot;hacker,&quot; while clarifying the act of hacking as a creative mindset that encourages playful/clever exploration of established cultural forms, from eating utensils to practical jokes, as opposed to methods for security breach. Beyond the more obvious examples of hacking, Stallman applies this mindset to two specific music compositions: &quot;Ma Fin Est Mon Commencement&quot; by 14th century French composer Guillaume de Machaut and &quot;4&#39;33&quot; by 20th century American avant-garde composer John Cage. The former is a palindromic music composition important to the development of polyphonic music and the latter is a composition written without musical notes. By referring to these two innovations as hacks more then music compositions, Stallman makes a cultural connection between hackers and artists - that hacking is innately creative.\n\tThis presentation/demonstration will examine the notion of hacking and its connections to composer John Cage, music improvisation, and re-purposed instrumentation including radios and transmitters as instruments, circuitbent instruments, and the DIY aspect of software and hardware instruments in the demo and chip music scenes."
+        "description": "In Richard Stallman&#39;s &quot;On Hacking&quot; from 2000, he addresses the stigma attached to the notion of &quot;hacker,&quot; while clarifying the act of hacking as a creative mindset that encourages playful/clever exploration of established cultural forms, from eating utensils to practical jokes, as opposed to methods for security breach. Beyond the more obvious examples of hacking, Stallman applies this mindset to two specific music compositions: &quot;Ma Fin Est Mon Commencement&quot; by 14th century French composer Guillaume de Machaut and &quot;4&#39;33&quot; by 20th century American avant-garde composer John Cage. The former is a palindromic music composition important to the development of polyphonic music and the latter is a composition written without musical notes. By referring to these two innovations as hacks more then music compositions, Stallman makes a cultural connection between hackers and artists - that hacking is innately creative.\nThis presentation/demonstration will examine the notion of hacking and its connections to composer John Cage, music improvisation, and re-purposed instrumentation including radios and transmitters as instruments, circuitbent instruments, and the DIY aspect of software and hardware instruments in the demo and chip music scenes."
     },
     {
         "rooms": [
@@ -852,7 +859,7 @@
         ],
         "title": "Practical Insecurity in Encrypted Radio",
         "id": "practical",
-        "description": "APCO Project 25 (&quot;P25&quot;) is a suite of wireless communications protocols used in the United States and elsewhere for public safety two-way (voice) radio systems. The protocols include security options in which voice and data traffic can be cryptographically protected from eavesdropping. This talk analyzes the security of P25 systems against passive and active adversaries. The panel found a number of protocol, implementation, and user interface weaknesses that routinely leak information to a passive eavesdropper or that permit highly efficient and difficult to detect active attacks. They found new &quot;selective subframe jamming&quot; attacks against P25, in which an active attacker with very modest resources can prevent specific kinds of traffic (such as encrypted messages) from being received, while emitting only a small fraction of the aggregate power of the legitimate transmitter. And, more significantly, they found that even passive attacks represent a serious immediate threat. In an over-the-air analysis conducted over a two year period in several U.S. metropolitan areas, they found that a significant fraction of the &quot;encrypted&quot; P25 tactical radio traffic sent by federal law enforcement surveillance operatives is actually sent in the clear - in spite of their users&#39; belief that they are encrypted - and often reveals such sensitive data as the names of informants in criminal investigations.\n\tAside from being important practical vulnerabilities in their own right, the problems in P25 secure radio represent an example of a class of problem that the security and cryptography community has largely ignored. Radio protocols typically do not fit the negotiated two-way communication model under which most security protocols are designed (and to which our community devotes most of its attention). One-way protocols, like P25, in which there is no negotiation or exchange between the transmitter and the receiver are actually rather unusual, and relatively little is known (or written in the literature) about robust design principles for them. In this talk, new approaches to protocol design will be suggested that might allow us to do better."
+        "description": "APCO Project 25 (&quot;P25&quot;) is a suite of wireless communications protocols used in the United States and elsewhere for public safety two-way (voice) radio systems. The protocols include security options in which voice and data traffic can be cryptographically protected from eavesdropping. This talk analyzes the security of P25 systems against passive and active adversaries. The panel found a number of protocol, implementation, and user interface weaknesses that routinely leak information to a passive eavesdropper or that permit highly efficient and difficult to detect active attacks. They found new &quot;selective subframe jamming&quot; attacks against P25, in which an active attacker with very modest resources can prevent specific kinds of traffic (such as encrypted messages) from being received, while emitting only a small fraction of the aggregate power of the legitimate transmitter. And, more significantly, they found that even passive attacks represent a serious immediate threat. In an over-the-air analysis conducted over a two year period in several U.S. metropolitan areas, they found that a significant fraction of the &quot;encrypted&quot; P25 tactical radio traffic sent by federal law enforcement surveillance operatives is actually sent in the clear - in spite of their users&#39; belief that they are encrypted - and often reveals such sensitive data as the names of informants in criminal investigations.\nAside from being important practical vulnerabilities in their own right, the problems in P25 secure radio represent an example of a class of problem that the security and cryptography community has largely ignored. Radio protocols typically do not fit the negotiated two-way communication model under which most security protocols are designed (and to which our community devotes most of its attention). One-way protocols, like P25, in which there is no negotiation or exchange between the transmitter and the receiver are actually rather unusual, and relatively little is known (or written in the literature) about robust design principles for them. In this talk, new approaches to protocol design will be suggested that might allow us to do better."
     },
     {
         "rooms": [
@@ -888,7 +895,7 @@
         ],
         "title": "Keynote Address - The Yes Men",
         "id": "yes",
-        "description": " followed by lightning talks"
+        "description": "followed by lightning talks"
     },
     {
         "rooms": [
@@ -916,7 +923,7 @@
             "Sassaman"
         ],
         "when": "2012-07-14T15:00:00",
-        "length": "(90 minutes)",
+        "length": "90 minutes",
         "location": "Sassaman",
         "timestamp": 1342292400,
         "speakers": [
@@ -960,7 +967,7 @@
         ],
         "title": "Privacy Tricks for Activist Web Developers",
         "id": "privacy",
-        "description": "Do you care about the privacy of your website&#39;s visitors, but also depend on social media to get your message out? Do you want to protect your visitors&#39; anonymity in case you or a third party service you use gets subpoenaed? Do you want to be able to get meaningful and pretty analytics without third parties tracking your visitors? Can some kid in a coffee shop really hijack your users&#39; accounts that easily?\n\tChances are Google, Facebook, and Twitter know as much about your website&#39;s visitors as you do, IP addresses and user agents are sprinkled about your server&#39;s filesystem, Google Analytics is watching everyone&#39;s every move, and some kid in a coffee shop is already pwning your users. But it doesn&#39;t have to be this way! This technical talk will cover tricks that web developers and sysadmins can use to minimize the privacy problems that plague the modern web."
+        "description": "Do you care about the privacy of your website&#39;s visitors, but also depend on social media to get your message out? Do you want to protect your visitors&#39; anonymity in case you or a third party service you use gets subpoenaed? Do you want to be able to get meaningful and pretty analytics without third parties tracking your visitors? Can some kid in a coffee shop really hijack your users&#39; accounts that easily?\nChances are Google, Facebook, and Twitter know as much about your website&#39;s visitors as you do, IP addresses and user agents are sprinkled about your server&#39;s filesystem, Google Analytics is watching everyone&#39;s every move, and some kid in a coffee shop is already pwning your users. But it doesn&#39;t have to be this way! This technical talk will cover tricks that web developers and sysadmins can use to minimize the privacy problems that plague the modern web."
     },
     {
         "rooms": [
@@ -1026,7 +1033,7 @@
             "Sassaman"
         ],
         "when": "2012-07-14T16:30:00",
-        "length": "(90 minutes)",
+        "length": "90 minutes",
         "location": "Sassaman",
         "timestamp": 1342297800,
         "speakers": [
@@ -1069,7 +1076,7 @@
             "Dennis"
         ],
         "when": "2012-07-14T17:00:00",
-        "length": "(3 hours)",
+        "length": "3 hours",
         "location": "Dennis",
         "timestamp": 1342299600,
         "speakers": [
@@ -1080,7 +1087,7 @@
         ],
         "title": "Privacy - A Postmortem (or Cell Phones, GPS, Drones, Persistent Dataveillance, Big Data, Smart Cameras and Facial Recognition, The Internet of Things, and Government Data Centers Vacuuming Google and Facebook, Oh My!)",
         "id": "privacypostmortom",
-        "description": "With a few keystrokes, it is now possible for an investigator to determine a target&#39;s location, activities, finances, sexual orientation, religion, politics, habits, hobbies, friends, family, their entire personal and professional histories... even accurately predict what they will do and where they will go in the future. Without leaving the office, a government agent can surveil a subject and &quot;watch&quot; their activities 24/7/365: where they drive, when they walk down the street, if they attend a church or synagogue or mosque or a demonstration or visit an abortion clinic or a &quot;known criminal activity location&quot; or meet with a &quot;targeted person&quot; or a disliked political activist. There is no longer any place to hide.\n\tSince the very first HOPE conference, private investigator extraordinaire Steven Rambam&#39;s lectures on privacy have kept attendees ten years ahead of the curve regarding surveillance technologies, investigative techniques, and the assaults upon personal privacy by government&#39;s Big Brothers and private industry&#39;s even bigger Big Sisters. His lectures described cell phone &quot;pinging&quot; eight years before it was used by the FBI and &quot;Google Glasses&quot; four years before they were announced. The past two years have seen the largest expansion of surveillance technologies ever and, in a wide ranging three hour lecture packed as always with dozens of real-world examples and case studies, Steven will provide a terrifying update on our absolute loss of privacy. His lecture is not for the weak of heart - or for those afraid of drones."
+        "description": "With a few keystrokes, it is now possible for an investigator to determine a target&#39;s location, activities, finances, sexual orientation, religion, politics, habits, hobbies, friends, family, their entire personal and professional histories... even accurately predict what they will do and where they will go in the future. Without leaving the office, a government agent can surveil a subject and &quot;watch&quot; their activities 24/7/365: where they drive, when they walk down the street, if they attend a church or synagogue or mosque or a demonstration or visit an abortion clinic or a &quot;known criminal activity location&quot; or meet with a &quot;targeted person&quot; or a disliked political activist. There is no longer any place to hide.\nSince the very first HOPE conference, private investigator extraordinaire Steven Rambam&#39;s lectures on privacy have kept attendees ten years ahead of the curve regarding surveillance technologies, investigative techniques, and the assaults upon personal privacy by government&#39;s Big Brothers and private industry&#39;s even bigger Big Sisters. His lectures described cell phone &quot;pinging&quot; eight years before it was used by the FBI and &quot;Google Glasses&quot; four years before they were announced. The past two years have seen the largest expansion of surveillance technologies ever and, in a wide ranging three hour lecture packed as always with dozens of real-world examples and case studies, Steven will provide a terrifying update on our absolute loss of privacy. His lecture is not for the weak of heart - or for those afraid of drones."
     },
     {
         "rooms": [
@@ -1387,7 +1394,7 @@
             "Dennis"
         ],
         "when": "2012-07-14T23:59:00",
-        "length": "(2 hours)",
+        "length": "2 hours",
         "location": "Dennis",
         "timestamp": 1342324740,
         "speakers": [
