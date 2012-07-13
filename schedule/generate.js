@@ -3,7 +3,7 @@
 var fs = require('fs');
 
 // write the notice
-var notice = {notice:"I hope you find this app helpful. And make sure to check out my talk, <em>Privacy Tricks for Activist Web Developers</em>, Saturday at 3pm, Nutt.<br><br>- Micah Lee<br>@micahflee<br><br><small>Happy hacking at HOPE9!</small>"};
+var notice = {notice:"Note: This app was made last-minute. The schedule isn't done yet, but don't worry, keep checking and it will all be here soon.<br><br>I hope you find this app helpful. And make sure to check out my talk, <em>Privacy Tricks for Activist Web Developers</em>, Saturday at 3pm, Nutt.<br><br>- Micah Lee<br>@micahflee<br><br><small>Happy hacking at HOPE9!</small>"};
 fs.writeFile('notice.json', JSON.stringify(notice), function(err){
   if(err) throw(err);
   console.log('notice.json written');
